@@ -1,2 +1,2 @@
 # HAUMAU
-The codes Used in Robotics
+The codes are used by team HAU MAU
