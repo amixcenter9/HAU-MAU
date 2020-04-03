@@ -1,5 +1,12 @@
-#include <SoftwareSerial.h>
+/*
+No need to use Tx and Rx pin of arduino. 
+Connect bluetooth module Rx pin with arduino digital pin 2 and Tx with pin 3.
+Motor speed can be regulated by changing the value of leftMotorSpeed & rightMotorSpeed.
 
+© Team HAU MAU
+*/
+
+#include <SoftwareSerial.h>
 SoftwareSerial mySerial(2, 3);   // (RX_Pin, TX_Pin)
 
 
